@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LondonStock.API.Common\LondonStock.API.Common.csproj" />
+    <ProjectReference Include="..\LondonStock.API.Data\LondonStock.API.Data.csproj" />
+  </ItemGroup>
+
+</Project>
